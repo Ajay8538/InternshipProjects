@@ -3,23 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Converter</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Temperature Converter</h1>
-        <label for="temperature">Enter Temperature:</label>
-        <input type="text" id="temp" placeholder="Enter temperature">
-        <div class="unit-selection">
-            <input type="radio" id="celsius" name="unit" value="celsius" checked>
-            <label for="celsius">Celsius</label>
-            <input type="radio" id="fahrenheit" name="unit" value="fahrenheit">
-            <label for="fahrenheit">Fahrenheit</label>
+    <header>
+        <img src="img.png" class="profile">
+        <h1>AJAY KUMAR</h1>
+        <p class="intro">A final year B.Tech IT student passionate about technology and innovation.</p>
+    </header>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="ajaykumar67067@gmail.com">ajaykumar67067@gmail.com</a></p>
+        <p>Phone: 9142755795</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ajay-kumar-07236325b">https://www.linkedin.com/in/ajay-kumar-07236325b</a></p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated and enthusiastic final-year B.Tech IT Student with a passion for software development and a keen interest in MERN Stack technologies. I have hands-on experience with various programming languages, tools, and technologies through academic projects and internships. I am dedicated to constantly improving my skills and staying up-to-date with industry trends.</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="Ajay Resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>MERN Stack</li>
+            <li>Java</li>
+            <li>C</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="portfolio-item">
+            <h3>College Admission System</h3>
+            <p>Description of the project.</p>
+            <h3>E-commerce Website</h3>
+            <p>Description of the project</p>
         </div>
-        <button onclick="convertTemperature()">Convert</button>
-        <div id="final"></div>
-    </div>
-    <script src="script.js"></script>
+    </section>
+
+    <footer>
+        <p>Additional Links</p>
+        <a href="Blog">Blog links</a>
+    </footer>
 </body>
 </html>
